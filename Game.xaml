@@ -9,6 +9,53 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        
+        <MenuBar HorizontalAlignment="Left" Margin="0,0,0, 960">
+            <MenuBarItem Title="File">
+                <MenuFlyoutItem Text="Exit" Click="MenuFlyoutItem_Click"/>
+                <MenuFlyoutItem Text="Back" Click="MenuFlyoutItem_Click_1"/>
+            </MenuBarItem>
+
+            <MenuBarItem Title="Help">
+                <MenuFlyoutItem Text="About" Click="MenuFlyoutItem_Click_2"/>
+            </MenuBarItem>
+        </MenuBar>
+        <Image x:Name="A" Source="Assets\gray.png" HorizontalAlignment="Left" Height="135" Margin="154,121,0,0" VerticalAlignment="Top" Width="240" Tapped="Image_Tapped"/>
+        <Image x:Name="B" Source="Assets\gray.png" HorizontalAlignment="Left" Height="135" Margin="154,325,0,0" VerticalAlignment="Top" Width="240" Tapped="Image_Tapped_1"/>
+        <Image x:Name="C" Source="Assets\gray.png" HorizontalAlignment="Left" Height="135" Margin="154,535,0,0" VerticalAlignment="Top" Width="240" Tapped="Image_Tapped_2"/>
+        <Image x:Name="D" Source="Assets\gray.png" HorizontalAlignment="Left" Height="135" Margin="154,748,0,0" VerticalAlignment="Top" Width="240" Tapped="Image_Tapped_3"/>
+
+        <Image x:Name="H" Source="Assets\gray.png" HorizontalAlignment="Left" Height="135" Margin="510,748,0,0" VerticalAlignment="Top" Width="240" Tapped="Image_Tapped_4"/>
+        <Image x:Name="G" Source="Assets\gray.png" HorizontalAlignment="Left" Height="135" Margin="510,535,0,0" VerticalAlignment="Top" Width="240" Tapped="Image_Tapped_5"/>
+        <Image x:Name="F" Source="Assets\gray.png" HorizontalAlignment="Left" Height="135" Margin="510,325,0,0" VerticalAlignment="Top" Width="240" Tapped="Image_Tapped_6"/>
+        <Image x:Name="E" Source="Assets\gray.png" HorizontalAlignment="Left" Height="135" Margin="510,121,0,0" VerticalAlignment="Top" Width="240" Tapped="Image_Tapped_7"/>
+
+        <Image x:Name="I" Source="Assets\gray.png" HorizontalAlignment="Left" Height="135" Margin="879,121,0,0" VerticalAlignment="Top" Width="240" Tapped="Image_Tapped_8"/>
+        <Image x:Name="K" Source="Assets\gray.png" HorizontalAlignment="Left" Height="135" Margin="879,535,0,0" VerticalAlignment="Top" Width="240" Tapped="Image_Tapped_9"/>
+        <Image x:Name="J" Source="Assets\gray.png" HorizontalAlignment="Left" Height="135" Margin="879,325,0,0" VerticalAlignment="Top" Width="240" Tapped="Image_Tapped_10"/>
+        <Image x:Name="L" Source="Assets\gray.png" HorizontalAlignment="Left" Height="135" Margin="879,748,0,0" VerticalAlignment="Top" Width="240" Tapped="Image_Tapped_11"/>
+
+        <Image x:Name="P" Source="Assets\gray.png" HorizontalAlignment="Left" Height="135" Margin="1197,748,0,0" VerticalAlignment="Top" Width="240" Tapped="Image_Tapped_12"/>
+        <Image x:Name="M" Source="Assets\gray.png" HorizontalAlignment="Left" Height="135" Margin="1197,325,0,0" VerticalAlignment="Top" Width="240" Tapped="Image_Tapped_13"/>
+        <Image x:Name="N" Source="Assets\gray.png" HorizontalAlignment="Left" Height="135" Margin="1197,535,0,0" VerticalAlignment="Top" Width="240" Tapped="Image_Tapped_14"/>
+        <Image x:Name="O" Source="Assets\gray.png" HorizontalAlignment="Left" Height="135" Margin="1197,121,0,0" VerticalAlignment="Top" Width="240" Tapped="Image_Tapped_15"/>
+
+
+        <TextBlock x:Name="TextBlock1" HorizontalAlignment="Left" Margin="239,260,0,0" TextWrapping="Wrap" Text="Click" VerticalAlignment="Top" Width="54"/>
+        <TextBlock x:Name="TextBlock2" HorizontalAlignment="Left" Margin="239,464,0,0" TextWrapping="Wrap" Text="Click" VerticalAlignment="Top" Width="54"/>
+        <TextBlock x:Name="TextBlock3" HorizontalAlignment="Left" Margin="239,674,0,0" TextWrapping="Wrap" Text="Click" VerticalAlignment="Top" Width="54"/>
+        <TextBlock x:Name="TextBlock4" HorizontalAlignment="Left" Margin="239,887,0,0" TextWrapping="Wrap" Text="Click" VerticalAlignment="Top" Width="54"/>
+        <TextBlock x:Name="TextBlock5" HorizontalAlignment="Left" Margin="603,260,0,0" TextWrapping="Wrap" Text="Click" VerticalAlignment="Top" Width="54"/>
+        <TextBlock x:Name="TextBlock6" HorizontalAlignment="Left" Margin="603,468,0,0" TextWrapping="Wrap" Text="Click" VerticalAlignment="Top" Width="54"/>
+        <TextBlock x:Name="TextBlock7" HorizontalAlignment="Left" Margin="603,674,0,0" TextWrapping="Wrap" Text="Click" VerticalAlignment="Top" Width="54"/>
+        <TextBlock x:Name="TextBlock8" HorizontalAlignment="Left" Margin="603,887,0,0" TextWrapping="Wrap" Text="Click" VerticalAlignment="Top" Width="54"/>
+        <TextBlock x:Name="TextBlock9" HorizontalAlignment="Left" Margin="972,260,0,0" TextWrapping="Wrap" Text="Click" VerticalAlignment="Top" Width="54"/>
+        <TextBlock x:Name="TextBlock10" HorizontalAlignment="Left" Margin="972,464,0,0" TextWrapping="Wrap" Text="Click" VerticalAlignment="Top" Width="54"/>
+        <TextBlock x:Name="TextBlock11" HorizontalAlignment="Left" Margin="972,674,0,0" TextWrapping="Wrap" Text="Click" VerticalAlignment="Top" Width="54"/>
+        <TextBlock x:Name="TextBlock12" HorizontalAlignment="Left" Margin="972,887,0,0" TextWrapping="Wrap" Text="Click" VerticalAlignment="Top" Width="54"/>
+        <TextBlock x:Name="TextBlock13" HorizontalAlignment="Left" Margin="1290,887,0,0" TextWrapping="Wrap" Text="Click" VerticalAlignment="Top" Width="54"/>
+        <TextBlock x:Name="TextBlock14" HorizontalAlignment="Left" Margin="1290,674,0,0" TextWrapping="Wrap" Text="Click" VerticalAlignment="Top" Width="54"/>
+        <TextBlock x:Name="TextBlock15" HorizontalAlignment="Left" Margin="1290,464,0,0" TextWrapping="Wrap" Text="Click" VerticalAlignment="Top" Width="54"/>
+        <TextBlock x:Name="TextBlock16" HorizontalAlignment="Left" Margin="1290,260,0,0" TextWrapping="Wrap" Text="Click" VerticalAlignment="Top" Width="54"/>
+
     </Grid>
 </Page>
